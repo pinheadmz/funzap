@@ -1,0 +1,145 @@
+#homepagec
+{
+	position: relative;
+	top: 60px;
+	height: 780px;
+	z-index: 0;
+	background-color: white;
+}
+
+.homepageform
+{
+	display:none;
+	max-height: 400px;
+}
+
+#homepagemenuc
+{
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	z-index:500;
+	
+	/* http://gradients.glrzad.com/ */
+	background-image: linear-gradient(bottom, #ffcb73 100%, rgb(255,255,255) 20%);
+	background-image: -o-linear-gradient(bottom, #ffcb73 100%, rgb(255,255,255) 20%);
+	background-image: -moz-linear-gradient(top, #ffcb73 20%, rgb(255,255,255) 100%);
+	background-image: -webkit-linear-gradient(bottom, #ffcb73 100%, rgb(255,255,255) 20%);
+	background-image: -ms-linear-gradient(bottom, #ffcb73 100%, rgb(255,255,255) 20%);
+	background-image: -webkit-gradient(linear,left bottom,left top,	color-stop(1, #ffcb73),color-stop(0.20, rgb(255,255,255)));
+}
+
+ul
+{
+	list-style-type: none;	
+	margin: 0 auto;
+	width: 700px;
+	height: 50px;
+	z-index:100;
+
+}
+
+li
+{
+	float: left;
+	padding: 7px;
+	margin: 10px;
+	border: 1px solid #ffa100;
+	border-radius: 5px;
+	width: 100px;
+}
+
+#menuaccount
+{
+	width: 250px;
+	overflow: hidden;	
+}
+
+#menuaccount:hover, #menuaccount.hover
+{
+	/* http://gradients.glrzad.com/ */
+	background-image: linear-gradient(bottom, #ffcb73 100%, rgb(255,255,255) 20%);
+	background-image: -o-linear-gradient(bottom, #ffcb73 100%, rgb(255,255,255) 20%);
+	background-image: -moz-linear-gradient(top, #ffcb73 20%, rgb(255,255,255) 100%);
+	background-image: -webkit-linear-gradient(bottom, #ffcb73 100%, rgb(255,255,255) 20%);
+	background-image: -ms-linear-gradient(bottom, #ffcb73 100%, rgb(255,255,255) 20%);
+	background-image: -webkit-gradient(linear,left bottom,left top,	color-stop(1, #ffcb73),color-stop(0.20, rgb(255,255,255)));
+}
+
+li:hover, li.hover
+{
+	color: black;
+	cursor: pointer;
+	background-color: #ffa100;
+	border: 1px solid black;
+}
+
+ul ul
+{
+	display: none;
+}
+
+ul ul li
+{
+	width: 220px;
+}
+
+ul li:hover ul, ul li.hover ul
+{
+	display: inline;
+}
+
+#makezapchoosepic
+{
+	line-height: 50px;
+	vertical-align: middle;
+}
+
+.tinypic
+{
+	height: 50px;
+	width: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin: auto;
+}
+
+#makezap ul, #makezap ul li
+{
+	margin: auto;
+	padding: 0;
+	width: 245px;
+}
+
+#makezappic, #tinyprizepic
+{
+	width:200px;
+}
+
+#tinyprizepic
+{
+	margin-bottom: 10px;
+}
+
+
+#makezap td
+{
+	vertical-align: middle;
+}
+
+.makezapoption
+{
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #ffcb73;
+}
+
+#menumakezap
+{
+	width: 200px;
+	font-size: 30px;
+	position: relative;
+	top: -7px;
+}
+
